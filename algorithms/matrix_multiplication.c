@@ -21,7 +21,7 @@ void standardMultiply(int **A, int **B, int **C, int n) {
         for (int j = 0; j < n; j++) {
             C[i][j] = 0;
             for (int k = 0; k < n; k++)
-                C[i][j] += A[i][k] * B[k][j];       
+                C[i][j] += A[i][k] * B[k][j];
         }
 }
 
@@ -100,7 +100,8 @@ void strassenMultiply(int n, int **A, int **B, int **C) {
     strassenMultiply(newSize, T1, T2, M7);
 
     // Combine results
-    for (int i = 0; i < newSize; i++) {
+    for (int i = 0; i < newSize; i++
+) {
         for (int j = 0; j < newSize; j++) {
             C[i][j] = M1[i][j] + M4[i][j] - M5[i][j] + M7[i][j];
             C[i][j + newSize] = M3[i][j] + M5[i][j];
