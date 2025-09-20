@@ -2,3 +2,10 @@
 .vscode/
 .idea/
 *.code-workspace
+# Compiled object files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out

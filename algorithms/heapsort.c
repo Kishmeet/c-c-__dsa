@@ -4,6 +4,9 @@
     heapify-O(n)
     heapsort-O(nlogn)
 */
+//algorithm is not stable
+//algorithm is not adaptive
+//also used in priority queue
 #include <stdio.h>
 #include <stdlib.h>
 void heapify(int arr[], int n, int i)//O(logn)
