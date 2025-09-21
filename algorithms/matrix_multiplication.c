@@ -27,7 +27,7 @@ void standardMultiply(int **A, int **B, int **C, int n) {
 
 // Strassen multiplication
 void strassenMultiply(int n, int **A, int **B, int **C) {
-    if (n <= 2) { 
+    if (n <= 64) { 
         standardMultiply(A, B, C, n);
         return;
     }
