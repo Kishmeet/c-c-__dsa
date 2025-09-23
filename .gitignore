@@ -1,11 +1,69 @@
-# IDE / Editor files
-.vscode/
-.idea/
+# =========================
+# Visual Studio / VS Code
+# =========================
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+Debug*/
+Release*/
+x64/
+x86/
+build/
+
+# Visual Studio database and temp files
+*.VC.db
+*.VC.opendb
+*.ipch
+*.iobj
+*.iuser
+*.idb
+*.pdb
+*.opendb
+*.tlog/
+*.lastbuildstate
+*.log
+
+# Visual Studio cache folders
+.vs/
+
+# CMake-generated files (if using CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja*
+
+# VS Code workspace settings 
+.vscode/*.code-workspace
 *.code-workspace
-# Compiled object files
+.vscode/*.history
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Other temp or intermediate files
+*.tmp
+*.bak
+*.swp
+*.out
+*.exp
+*.ilk
 *.o
 *.obj
-*.so
+*.lib
 *.dll
 *.exe
-*.out
+*.app
+*.tlh
+*.tli
+*.res
+*.rsp
